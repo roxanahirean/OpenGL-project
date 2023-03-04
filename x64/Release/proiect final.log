@@ -1,0 +1,28 @@
+﻿  main.cpp
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(180,14): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(183,11): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(583,103): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(583,57): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(610,102): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(610,57): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+  Generating code
+  1 of 1889 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    16 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+LINK : warning LNK4286: symbol '__glewGenBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGenVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewActiveTexture' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBufferData' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewGetUniformLocation' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewUniform1i' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindBuffer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewVertexAttribPointer' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewBindVertexArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewEnableVertexAttribArray' defined in 'libglew32.lib(glew.obj)' is imported by 'Mesh.obj'
+LINK : warning LNK4286: symbol '__glewDeleteBuffers' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewGenerateMipmap' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol '__glewDeleteVertexArrays' defined in 'libglew32.lib(glew.obj)' is imported by 'Model3D.obj'
+LINK : warning LNK4286: symbol 'glewInit' defined in 'libglew32.lib(glew.obj)' is imported by 'Window.obj'
+LINK : warning LNK4286: symbol 'glewExperimental' defined in 'libglew32.lib(glew.obj)' is imported by 'Window.obj'
+  proiect final.vcxproj -> C:\FAQULTATE\PG LAB\proiect final\x64\Release\proiect final.exe

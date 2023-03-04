@@ -1,0 +1,43 @@
+﻿  Camera.cpp
+  main.cpp
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(166,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(167,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(171,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(172,17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(173,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(174,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(702,103): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(702,57): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(722,102): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\FAQULTATE\PG LAB\proiect final\main.cpp(722,57): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+  Mesh.cpp
+C:\FAQULTATE\PG LAB\proiect final\Mesh.cpp(32,72): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model3D.cpp
+C:\FAQULTATE\PG LAB\proiect final\Model3D.cpp(89,40): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=GLuint
+          ]
+C:\FAQULTATE\PG LAB\proiect final\Model3D.cpp(97,46): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Shader.cpp
+  SkyBox.cpp
+  stb_image.cpp
+  tiny_obj_loader.cpp
+  Window.cpp
+  Generating Code...
+LINK : warning LNK4217: symbol '__glewActiveTexture' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewBindBuffer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBufferData' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGenBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewEnableVertexAttribArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewGetUniformLocation' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewUniform1i' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewVertexAttribPointer' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewBindVertexArray' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)'
+LINK : warning LNK4217: symbol '__glewGenVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Mesh.obj' in function '"private: void __cdecl gps::Mesh::setupMesh(void)" (?setupMesh@Mesh@gps@@AEAAXXZ)'
+LINK : warning LNK4217: symbol '__glewDeleteBuffers' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"public: __cdecl gps::Model3D::~Model3D(void)" (??1Model3D@gps@@QEAA@XZ)'
+LINK : warning LNK4217: symbol '__glewGenerateMipmap' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"private: unsigned int __cdecl gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AEAAIPEBD@Z)'
+LINK : warning LNK4217: symbol '__glewDeleteVertexArrays' defined in 'libglew32d.lib(glew.obj)' is imported by 'Model3D.obj' in function '"public: __cdecl gps::Model3D::~Model3D(void)" (??1Model3D@gps@@QEAA@XZ)'
+LINK : warning LNK4217: symbol 'glewInit' defined in 'libglew32d.lib(glew.obj)' is imported by 'Window.obj' in function '"public: void __cdecl gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QEAAXHHPEBD@Z)'
+LINK : warning LNK4217: symbol 'glewExperimental' defined in 'libglew32d.lib(glew.obj)' is imported by 'Window.obj' in function '"public: void __cdecl gps::Window::Create(int,int,char const *)" (?Create@Window@gps@@QEAAXHHPEBD@Z)'
+  proiect final.vcxproj -> C:\FAQULTATE\PG LAB\proiect final\x64\Debug\proiect final.exe
